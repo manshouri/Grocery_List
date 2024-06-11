@@ -38,6 +38,10 @@ body{
     width: 70%;
     font-size: 1.5rem;
 
+ 
+    #allItems h2{
+        margin-left: 50px;
+    }
 }
 @media(max-width:480px){
     .groceries h1{
