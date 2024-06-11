@@ -7,7 +7,7 @@ body{
     background-color: orange;
 }
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 90%;
     margin: auto;
     display: flex;
@@ -38,4 +38,19 @@ body{
     width: 70%;
     font-size: 1.5rem;
 
+}
+@media(max-width:480px){
+    .groceries h1{
+        font-size: 2rem;
+    }
+    .groceries i{
+        font-size: 1.5rem;
+    }
+    .groceries input{
+        font-size: 1rem;
+    }
+    #allItems h2{
+        font-size: 1.5rem;
+        margin-left: 25px;
+    }
 }
